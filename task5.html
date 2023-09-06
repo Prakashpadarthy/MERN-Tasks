@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table {
+        border: 1px solid black;
+        
+    }
+    th{
+        border-right: 1px solid black;
+    }
+    th,td{
+        border-bottom: 1px solid black;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    textarea,
+    select {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+</style>
+</head>
+<body>
+    <table>
+      
+            <form></form>
+                <tbody><tr>
+                    <th>First Name</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <th>Re-enter Password</th>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Gender:</th>
+                    <td><input type="radio" id="male" name="gender" value="male">Male</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="female" name="'gender" value="female">Female</td>
+                </tr>
+                <tr>
+                    <th>Age:</th>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <td><input type="number">
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><textarea rows="5" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <th>State</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Country</th>
+                    <td>
+                        <select>
+                            <option value="" disabled="" selected="">Choose your country</option>
+                            <option value="us">United States</option>
+                            <option value="ca">India</option>
+                            <option value="uk">United Kingdom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Languages known</th>
+                    <td>
+                        <input type="checkbox">English<input type="checkbox">Kannada<input type="checkbox">Hindi<input type="checkbox">Telugu
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox"> Hereby I declare all the given details are
+                        true
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="text-align: right;">Login in to <a href="link">Ethnus</a> website</td>
+                </tr>
+            
+        </tbody></table>
+    
+        <button>Register</button>
+
+
+</body>
+</html>
